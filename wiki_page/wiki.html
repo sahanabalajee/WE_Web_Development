@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wikipedia-like Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Table of Contents</h1>
+        <nav id="toc">
+            <!-- JavaScript will populate this with links -->
+        </nav>
+    </header>
+
+    
+    <section>
+        <button class="collapsible">Early Life</button>
+        <div class="content">
+            <p>Details about early life...</p>
+        </div>
+    </section>
+
+    <section>
+        <button class="collapsible">Career</button>
+        <div class="content">
+            <button class="collapsible">First Job</button>
+            <div class="content">
+                <p>Details about the first job...</p>
+            </div>
+
+            <button class="collapsible">Second Job</button>
+            <div class="content">
+                <p>Details about the second job...</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="wiki_script.js"></script>
+</body>
+</html>
